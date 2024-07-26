@@ -29,11 +29,14 @@ function  validateCred(arr){
     arr.reverse();
     for(let i = -1; i < arr.length; i+=2)
     {
-            arr[i] *= 2;
+        if(i === -1)
+            continue;
+
+        arr[i] *= 2;
             if(arr[i] > 9)
                 arr[i] -= 9;
+        console.log(arr[i]);
     }
-
     let sum = arr.reduce((accumulator, currentValue) => {
         return accumulator + currentValue;
     }, 0);
@@ -44,6 +47,16 @@ function  validateCred(arr){
 console.log(validateCred(valid5));
 console.log(validateCred(invalid5));
 
+// function findInvalidCards(arr){
+//     let newArr = [];
+//     for(let i = 0; i < arr.length; i++){
+//         if(!validateCred(arr[i]))
+//             newArr.push(arr[i]);
+//     }
+//     return newArr;
+// }
+//
+// console.log(findInvalidCards(batch));
 
 
 
