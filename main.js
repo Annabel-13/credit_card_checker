@@ -61,7 +61,7 @@ function findInvalidCards(arr){
     return newArr;
 }
 
-console.log(findInvalidCards(batch));
+// console.log(findInvalidCards(batch));
 function  idInvalidCardCompanies(arr){
     let arrComp = [];
     for(let i = 0; i < arr.length; i++)
