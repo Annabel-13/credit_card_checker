@@ -62,6 +62,30 @@ function findInvalidCards(arr){
 }
 
 console.log(findInvalidCards(batch));
+function  idInvalidCardCompanies(arr){
+    let arrComp = [];
+    for(let i = 0; i < arr.length; i++)
+    {
+        switch (arr[i][0])
+        {
+            case 3:
+                arrComp.push('Amex');
+                break;
+            case 4:
+                arrComp.push('Visa');
+                break;
+            case 5:
+                arrComp.push('Mastercard');
+                break;
+            case 6:
+                arrComp.push('Discover');
+                break;
+            default:
+                arrComp.push('Company not found');
+                break;
+        }
+    }
+    return [...new Set(arrComp)];
+}
 
-
-
+console.log(idInvalidCardCompanies(findInvalidCards(batch)));
