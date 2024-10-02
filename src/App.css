@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkviolet;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+.sample-section {
+  margin-top: 30px;
+}
+
+.sample-section button {
+  margin: 5px;
+  font-size: 14px;
+}
