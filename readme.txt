@@ -1,7 +1,7 @@
 
 # Credit Card Checker
 
-![credit-card.png](https://github.com/Annabel-13/credit_card_checker/blob/main/screenshots/credit-card1.png)
+![credit-card.png](https://raw.githubusercontent.com/Annabel-13/credit_card_checker/blob/main/screenshots/credit-card1.png)
 
 
 ## Description
